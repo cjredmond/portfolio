@@ -53,7 +53,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio-target">Portfolio</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
@@ -84,28 +84,35 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <div class="portfolio-items">
+    <div class="portfolio-items" id='portfolio-target'>
       <div class="portfolio-app" id='final-app'>
-        <h2 class='center'>App Name</h2>
         <div class="row">
-          <div class="col-md-4">
-            <h4 class="center">Description</h4>
-            <ul class='app-list'>
-              <li>Intro to app</li>
-              <li>Something about app</li>
-              <li>Something about app</li>
-              <li>Something about app</li>
-            </ul>
+          <h2 class='center'>Fantasy Sports App</h2>
+          <div class="col-md-8">
+            <div class="col-md-6">
+              <h4 class="center">Description</h4>
+              <ul class='app-list'>
+                <li>Live scoring based on real games</li>
+                <li>Includes Football, Basketball, Hockey, and Soccer</li>
+                <li>Create a league with 5 friends</li>
+                <li>Weekly matchups against one opponent</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h4 class="center">Technology</h4>
+              <ul class='app-list'>
+                <li>Python</li>
+                <li>Django</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Celery</li>
+                <li>Heroku</li>
+                <li>Materialize</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
           </div>
-          <div class="col-md-4">
-            <h4 class="center">Technology</h4>
-            <ul class='app-list'>
-              <li>Python</li>
-              <li>Django</li>
-              <li>CSS</li>
-              <li>HTML</li>
-            </ul>
-          </div>
+
           <div class="col-md-4">
             <img class="resize-img" src="static/info/SC.png" alt="" />
           </div>
@@ -115,15 +122,46 @@
 
     <div class="portfolio-items">
       <div class="portfolio-app" id='imgur-app'>
-        <h2 class='center'>App Name</h2>
+        <h2 class='center'>Imgur Clone</h2>
         <div class="row">
           <div class="col-md-4">
             <h4 class="center">Description</h4>
             <ul class='app-list'>
-              <li>Intro to app</li>
-              <li>Something about app</li>
-              <li>Something about app</li>
-              <li>Something about app</li>
+              <li>Based on imgur.com</li>
+              <li>Upload images</li>
+              <li>Upvote/Downvote images</li>
+              <li>Comment of images</li>
+              <li>Upvote/Downvote comments</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="center">Technology</h4>
+            <ul class='app-list'>
+              <li>Python</li>
+              <li>Django</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <img class="resize-img" src="static/info/SC.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-items">
+      <div class="portfolio-app" id='url-short-app'>
+        <h2 class='center'>URL Shortener</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="center">Description</h4>
+            <ul class='app-list'>
+              <li>Upload and shorten URLs</li>
+              <li>Mark URLs as public or private</li>
+              <li>Share URLs and view other users URLs</li>
+              <li>Records hit count of each URL</li>
             </ul>
           </div>
           <div class="col-md-4">
@@ -143,13 +181,47 @@
     </div>
 
     <div class="portfolio-items">
-      <div class="portfolio-app" id='final-app'>
+      <div class="portfolio-app" id='rails-app'>
+        <h2 class='center'>Simple Blog</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="center">Description</h4>
+            <ul class='app-list'>
+              <li>Simple personal blog in Rails</li>
+              <li>A single user can post to the blog</li>
+              <li>All users can view posts</li>
+              <!-- <li>Something about app</li>
+              <li>Something about app</li> -->
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="center">Technology</h4>
+            <ul class='app-list'>
+              <li>Ruby</li>
+              <li>Rails</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Heroku</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <img class="resize-img" src="static/info/SC.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="portfolio-items">
+      <div class="portfolio-app" id='bottom-app'>
         <h2 class='center'>App Name</h2>
         <div class="row">
           <div class="col-md-4">
             <h4 class="center">Description</h4>
             <ul class='app-list'>
               <li>Intro to app</li>
+              <li>Something about app</li>
               <li>Something about app</li>
               <li>Something about app</li>
               <li>Something about app</li>
@@ -170,8 +242,6 @@
         </div>
       </div>
     </div>
-
-
 
     <!-- About Section -->
     <section class="success" id="about">
