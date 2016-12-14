@@ -20,19 +20,18 @@
    background-color: #B23000;
  }
 .portfolio-app {
-  height: 350px;
+  height: 400px;
   padding-top: 0px;
   padding-bottom: 10px;
 }
 .app-list {
-  font-size: 18px;
+  font-size: 20px;
 }
 .resize-img {
   max-width: 250px;
   max-height: 250px;
   margin: auto;
   display: block;
-  margin-top: 0px;
 }
 .center {
   text-align: center;
