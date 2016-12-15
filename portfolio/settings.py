@@ -26,7 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'info'
+    'info',
     'storages'
 ]
 
@@ -123,6 +123,4 @@ if AWS_STORAGE_BUCKET_NAME:
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-MEDIA_URL = '/media/'
-MEDIA_ROOT = 'media'
 LOGIN_REDIRECT_URL = '/'
