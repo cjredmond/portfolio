@@ -3,7 +3,14 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.github {
+  text-transform: none !important;
+}
 
+.github-blue {
+  text-transform: none !important;
+  color: #B23000;
+}
  #imgur-app {
    background-color: #19FFD2;
  }
