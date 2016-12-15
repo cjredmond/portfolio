@@ -124,3 +124,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 LOGIN_REDIRECT_URL = '/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media'
