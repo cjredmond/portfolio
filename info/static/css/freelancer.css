@@ -3,6 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+ /*.skills {
+   font-size: 40px !important;
+   color: blue !important;
+ }*/
 .github {
   text-transform: none !important;
 }
