@@ -59,7 +59,7 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                        <a href="{% url 'resume_view' %}" target="_blank">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,8 @@
                 <div class="col-lg-12">
                     <div class="intro-text">
                         <span class="name">Connor Redmond</span>
-                        <span class="skills">connor.redmond@gmail.com</span>
+                        <span class="skills">connor.redmond@gmail.com</span><br>
+                        <span><a href="{% url 'resume_view' %}" target="_blank" style="color:#333; font-size:24px;">Resume</a></span>
 
                         <hr class="star-light">
                         <span class="skills">Python/Django</span><br>

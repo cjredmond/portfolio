@@ -4,10 +4,19 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
- /*.skills {
-   font-size: 40px !important;
-   color: blue !important;
- }*/
+.resume-center {
+   text-align: center;
+   padding-top: 4px;
+   color: red !important;
+ }
+.resume-header {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    font-size: 10px;
+    color: red !important;
+}
+
+
 .github {
   text-transform: none !important;
 }

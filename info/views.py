@@ -9,11 +9,9 @@ class IndexView(TemplateView):
 class ResumeView(TemplateView):
     template_name = "resume.html"
 # def resume_view(request):
-#     response = HttpResponse(content_type="application/pdf")
-#     response['Content-Disposition'] = 'attachment; filename="info/pdf/CJRresumeupdate.docx.pdf"'
-#
-#     p = canvas.Canvas(response)
-#
-#     p.showPage()
-#     p.save()
+#     with open('info/static/pdf/CJRresumeupdate.docx.pdf' , 'r') as pdf:
+#         response = HttpResponse(pdf.read(), mimetype='application/pdf')
+#         response['Content-Disposition'] = 'inline;filename=/info/static/pdf/CJRresumeupdate.docx.pdf'
+#         return response
+#     pdf.close()
 #     return response
